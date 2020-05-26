@@ -1,4 +1,4 @@
-export default number42 = [
+export const number42 = [
   { latitude: 41.63489, longitude: 41.63796 },
   { latitude: 41.63595, longitude: 41.63729 },
   { latitude: 41.63678, longitude: 41.63681 },

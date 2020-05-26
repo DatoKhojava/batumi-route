@@ -4,7 +4,7 @@ import * as React from "react";
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
 import TripScreen from "../screens/TripScreen";
-import ScheduleScreen from "../screens/ScheduleScreen/ScheduleScreen";
+import ScheduleScreen from "../screens/ScheduleScreen";
 
 const BottomTab = createBottomTabNavigator();
 const INITIAL_ROUTE_NAME = "Home";
@@ -62,9 +62,9 @@ function getHeaderTitle(route) {
 
   switch (routeName) {
     case "Home":
-      return "How to get started";
+      return "Home Page";
     case "Schedule":
-      return "Links to learn more";
+      return "Schedule window";
     case "Trip":
       return "Make you trip";
   }
